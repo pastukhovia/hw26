@@ -1,7 +1,7 @@
 from flask import Flask
 from main.views import main_blueprint
 from errorhandler.errorhandler import error_handler
-from api.api import api_blueprint
+from apis.api import api_blueprint
 
 def create_app():
     app = Flask(__name__)

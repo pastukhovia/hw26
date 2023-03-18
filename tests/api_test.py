@@ -1,5 +1,5 @@
 import pytest
-from api.utils import load_posts_from_json, get_post_by_pk
+from apis.utils import load_posts_from_json, get_post_by_pk
 
 
 def test_load_posts_from_json():

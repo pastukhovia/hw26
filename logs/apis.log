@@ -1,0 +1,12 @@
+2023-03-18 22:37:48,049 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-03-18 22:37:48,049 [INFO] [33mPress CTRL+C to quit[0m
+2023-03-18 22:39:06,259 [INFO] 127.0.0.1 - - [18/Mar/2023 22:39:06] "GET / HTTP/1.1" 200 -
+2023-03-18 22:39:06,365 [INFO] 127.0.0.1 - - [18/Mar/2023 22:39:06] "GET /static/css/styles.min.css HTTP/1.1" 200 -
+2023-03-18 22:39:06,368 [INFO] 127.0.0.1 - - [18/Mar/2023 22:39:06] "GET /static/img/bookmark.png HTTP/1.1" 200 -
+2023-03-18 22:39:06,368 [INFO] 127.0.0.1 - - [18/Mar/2023 22:39:06] "GET /static/img/eye.png HTTP/1.1" 200 -
+2023-03-18 22:39:07,059 [INFO] 127.0.0.1 - - [18/Mar/2023 22:39:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-03-18 22:39:10,212 [INFO] 127.0.0.1 - - [18/Mar/2023 22:39:10] "GET / HTTP/1.1" 200 -
+2023-03-18 22:39:10,266 [INFO] 127.0.0.1 - - [18/Mar/2023 22:39:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2023-03-18 22:39:10,270 [INFO] 127.0.0.1 - - [18/Mar/2023 22:39:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2023-03-18 22:39:10,271 [INFO] 127.0.0.1 - - [18/Mar/2023 22:39:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
