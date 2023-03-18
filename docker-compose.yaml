@@ -2,6 +2,6 @@ version: "3.3"
 
 services:
   web:
-    build: $IMAGE_TAG:$GITHUB_REF_NAME-$GITHUB_RUN_ID
+    image: $IMAGE_TAG:$GITHUB_REF_NAME-$GITHUB_RUN_ID
     ports:
       - 5000:5000
