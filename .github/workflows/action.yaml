@@ -42,7 +42,7 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
             cd deploy
-            sudo docker compose up
+            docker compose up
 
 
 
