@@ -43,3 +43,4 @@ jobs:
           script: |
             cd deploy
             docker compose up -d
+            echo y | docker image prune -a
